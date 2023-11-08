@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(85, 85, 85);
+    margin: 0;
+}
+
+a {
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+
+.card {
+    margin: auto;
+    margin-top: 20px;
+    width: 540;
+    background-color: rgb(209, 209, 209);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    min-width: 540px;
+    overflow: hidden;
+    max-height: 1000px;
+    transition: max-height 0.5s ease-in;
+}
+
+.card .toggle-btn {
+    float: right;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(212, 101, 101);
+
+    height: 30px;
+    width: 30px;
+}
+
+.card .toggle-btn:hover {
+    background-color: rgb(126, 74, 74);
+    box-shadow: inset 0px 0px 5px 5px rgb(75, 75, 75, 0.5);
+}
+
+.info-user {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    color: rgb(68, 68, 68);
+}
+
+.user-data {
+    max-width: 300px;
+    overflow-wrap: break-word;
+    margin: auto;
+}
+
+.image-user, .image-info {
+    border-radius: 15px;
+}
+
+.hidden-obj {
+    display: none;
+}
